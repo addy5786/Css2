@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0;
+        }
+        .nav{
+            color: blueviolet;
+            background-color: rgb(255, 0, 195);
+            font-size: large;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            display: flex;
+            justify-content: space-around;
+            padding: 30px;
+        }
+        .card{
+            display: flex;
+            justify-content: space-around;
+            margin-top: 60px;
+        }
+        .c{
+            text-align: center;
+            border: 2px double violet;
+            margin: 0px 90px;
+            background-color: aqua;
+            border-radius: 20px;
+            padding: 10px;
+            box-shadow: 7px 7px 9px violet;
+        }
+        img{
+            border-radius: 20px;
+        }
+        @media (max-width:600px) {
+           .nav{
+            color: blueviolet;
+            background-color: rgb(230, 0, 255);
+            font-size: large;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            display: flex;
+            flex-direction: column;
+            padding: 30px;
+        }
+        a{
+            margin-bottom: 20px;
+        }
+        .card{
+            display: flex;
+            flex-direction: column;
+            margin-top: 60px;
+            
+        }
+        .c{
+            text-align: center;
+            border: 2px double violet;
+            margin: 0px 90px;
+            background-color: rgb(234, 255, 0);
+            border-radius: 20px;
+            padding: 10px;
+            box-shadow: 7px 7px 9px violet;
+            margin-bottom: 60px;
+        }
+        img{
+            border-radius: 20px;
+        } 
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="nav">
+        <a href="">Home</a>
+        <a href="">About</a>
+        <a href="">Gallery</a>
+        <a href="">Contact</a>
+
+    </div>
+    <div class="card">
+        <div class="c">
+            <img src="https://assets.gqindia.com/photos/695ce69b5ab4b7407f204236/1:1/w_1600%2Cc_limit/008.jpg" alt="" height="300px" width="200px">
+            <h1>Image 1</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, labore.</p>
+        </div>
+        <div class="c">
+            <img src="https://www.nathab.com/_image?href=https%3A%2F%2Fgood-nature-blog-uploads.s3.amazonaws.com%2Fuploads%2F2022%2F01%2Fgood-nature-homepage-hero_2-1280x640.jpg&w=1280&h=640" alt="" height="300px" width="200px">
+            <h1>Image 2</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, labore.</p>
+        </div>
+        <div class="c">
+            <img src="https://tourtimes.in/api/public/media/blog/leh-ladakh-tourist-places-top-destinations-in-ladakh-wanderlust-explorers/6.jpg" alt="" height="300px" width="200px">
+            <h1>Image 3</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, labore.</p>
+        </div>
+    </div>
+</body>
+</html>
